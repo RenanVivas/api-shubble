@@ -1,0 +1,8 @@
+{
+  "ignore": {
+    "mongoose": {
+      "versions": "5.2.6",
+      "reason": "open"
+    }
+  }
+}
