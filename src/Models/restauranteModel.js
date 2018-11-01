@@ -20,7 +20,23 @@ var RestauranteSchema = new mongoose.Schema({
     descricao: {
         type: String,
         required: [true, 'Informe a marca do Produto']
-    }
+    },
+    localizacao: {
+        type: String,
+        required: [true, 'Informe a Localização do Produto']
+    },
+    telefone: {
+        type: String,
+        required: [true, 'Informe a Telefone do Produto']
+    },    
+    valorMax: {
+        type: String,
+        required: [true, 'Informe o valorMax do Produto']
+    },  
+    valorMin: {
+        type: String,
+        required: [true, 'Informe o valorMin do Produto']
+    } 
 
 }, {
     timestamps: true

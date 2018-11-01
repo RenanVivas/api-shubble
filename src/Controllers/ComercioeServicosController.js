@@ -7,7 +7,11 @@ exports.registrarComercioeServicos = function(req, res, next) {
         porcentagem: req.body.porcentagem,
         nome: req.body.nome,
         valor: req.body.valor,
-        descricao: req.body.descricao
+        descricao: req.body.descricao,
+        localizacao: req.body.localizacao,
+        telefone: req.body.telefone,
+        valorMax: req.body.valorMax,
+        valorMin: req.body.valorMin
 
     }, function(err, ComercioseServicos){
         if(err)
